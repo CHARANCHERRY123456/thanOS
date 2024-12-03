@@ -15,6 +15,7 @@ void displayMapping(int numPages) {
     printf("\nMapping Complete! 🎉\n");
 }
 
+// Oorike
 void simulatePaging(int numPages) {
     int logicalAddress, pageNumber, offset, physicalAddress;
     printf("\nEnter a logical address to access (-1 to quit): ");
